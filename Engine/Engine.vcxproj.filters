@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\private">
+      <UniqueIdentifier>{1094c100-b883-4d93-a274-83551982b815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public">
+      <UniqueIdentifier>{5b2b92fa-c91c-4f7f-9805-f40587a43302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pch">
+      <UniqueIdentifier>{355d7275-f6ad-4a8e-8b18-5139efa2e4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private\Platform">
+      <UniqueIdentifier>{692f2f6e-9310-421e-9acf-5170c4c09d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private\Platform\WIN32">
+      <UniqueIdentifier>{bb2aa139-b9ca-4de6-96c4-958f496ce650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public\Platform">
+      <UniqueIdentifier>{9c706049-6510-4a52-9bde-afe05d1b9d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public\Platform\WIN32">
+      <UniqueIdentifier>{cab49d5f-269a-4c0a-a774-804e2d85dcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private\Platform\WIN64">
+      <UniqueIdentifier>{be82d6ba-9062-4045-99b7-74abcd086da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public\Platform\WIN64">
+      <UniqueIdentifier>{0b936dae-9830-4d51-a59a-378994c297cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pch\Platform">
+      <UniqueIdentifier>{8c213157-99d6-46ab-88eb-04fe2509d100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pch\Platform\WIN32">
+      <UniqueIdentifier>{75fa2e40-fffe-4162-929c-973e1ddeac93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public\Common">
+      <UniqueIdentifier>{6ea2cb99-f0eb-4149-8926-6df3dd14814b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private\Common">
+      <UniqueIdentifier>{243a8ccc-d469-4b5e-8d4b-964325c5385d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Platform\WIN32\IApplication.cpp">
+      <Filter>Source Files\private\Platform\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\WIN32\WinMain.cpp">
+      <Filter>Source Files\pch\Platform\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\logger.cpp">
+      <Filter>Source Files\private\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Platform\WIN32\IApplication.h">
+      <Filter>Source Files\public\Platform\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Source Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\WIN32\WinMain.h">
+      <Filter>Source Files\pch\Platform\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entry.h">
+      <Filter>Source Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\logger.h">
+      <Filter>Source Files\public\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

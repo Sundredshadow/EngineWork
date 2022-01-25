@@ -1,0 +1,9 @@
+﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  Application.cpp
+  pch.cpp
+LINK : warning C4727: PCH named c:\users\seank\source\repos\blankproj\blankproj\intermediate\x86\release\blankproj.pch with same timestamp found in c:\users\seank\source\repos\blankproj\blankproj\intermediate\x86\release\pch.obj and c:\users\seank\source\repos\blankproj\blankproj\intermediate\x86\release\application.obj.  Using first PCH.
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BlankProj.vcxproj -> C:\Users\seank\source\repos\BlankProj\Build\x86\Release\BlankProj.exe

@@ -1,0 +1,13 @@
+﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  Application.cpp
+C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C2143: syntax error: missing ',' before '*'
+C:\Users\seank\source\repos\BlankProj\BlankProj\Source\Application.cpp(15,38): error C2664: 'void Logger::PrintLog(const int)': cannot convert argument 1 from 'const wchar_t [17]' to 'const int'
+C:\Users\seank\source\repos\BlankProj\BlankProj\Source\Application.cpp(15,19): message : There is no context in which this conversion is possible
+C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,14): message : see declaration of 'Logger::PrintLog'
+C:\Users\seank\source\repos\BlankProj\BlankProj\Source\Application.cpp(20,26): error C2664: 'void Logger::PrintLog(const int)': cannot convert argument 1 from 'const wchar_t [5]' to 'const int'
+C:\Users\seank\source\repos\BlankProj\BlankProj\Source\Application.cpp(20,19): message : There is no context in which this conversion is possible
+C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,14): message : see declaration of 'Logger::PrintLog'
+  pch.cpp
+C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C2143: syntax error: missing ',' before '*'

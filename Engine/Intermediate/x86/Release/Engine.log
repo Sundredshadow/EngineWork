@@ -1,0 +1,10 @@
+﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  Engine.cpp
+  IApplication.cpp
+  WinMain.cpp
+     Creating library C:\Users\seank\source\repos\BlankProj\\Build\x86\Release\Engine.lib and object C:\Users\seank\source\repos\BlankProj\\Build\x86\Release\Engine.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Engine.vcxproj -> C:\Users\seank\source\repos\BlankProj\Build\x86\Release\Engine.dll

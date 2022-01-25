@@ -1,0 +1,5 @@
+﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  Application.cpp
+C:\Users\seank\source\repos\BlankProj\EngineWork\Engine\Source\Entry.h(12,10): warning C4930: 'Logger logger(void)': prototyped function not called (was a variable definition intended?)
+  pch.cpp
+  BlankProj.vcxproj -> C:\Users\seank\source\repos\BlankProj\EngineWork\Build\x64\Debug\BlankProj.exe

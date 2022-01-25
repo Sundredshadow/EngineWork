@@ -1,0 +1,6 @@
+﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  logger.cpp
+C:\Users\seank\source\repos\BlankProj\EngineWork\Engine\Source\Common\logger.cpp(27,28): error C3861: 'LogDirectory': identifier not found
+C:\Users\seank\source\repos\BlankProj\EngineWork\Engine\Source\Common\logger.cpp(27,50): error C3861: 'LogFile': identifier not found
+  Engine.cpp
+  IApplication.cpp
