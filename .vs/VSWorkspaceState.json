@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Engine",
+    "\\Engine\\Source",
+    "\\Engine\\Source\\Common"
   ],
+  "SelectedNode": "\\Engine\\Source\\Common\\logger.cpp",
   "PreviewInSolutionExplorer": false
 }

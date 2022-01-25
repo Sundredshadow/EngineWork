@@ -1,6 +1,10 @@
-﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+﻿cl : command line warning D9002: ignoring unknown option '/std:c++20'
+cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
   logger.cpp
-C:\Users\seank\source\repos\BlankProj\EngineWork\Engine\Source\Common\logger.cpp(27,28): error C3861: 'LogDirectory': identifier not found
-C:\Users\seank\source\repos\BlankProj\EngineWork\Engine\Source\Common\logger.cpp(27,50): error C3861: 'LogFile': identifier not found
+D:\Profiles\eds7847\source\repos\EngineWork\Engine\Source\Common\logger.cpp(28,50): error C3861: 'LogFile': identifier not found
+D:\Profiles\eds7847\source\repos\EngineWork\Engine\Source\Common\logger.cpp(35,23): error C2065: 'FOLDERID_RoamingAppData': undeclared identifier
+D:\Profiles\eds7847\source\repos\EngineWork\Engine\Source\Common\logger.cpp(35,2): error C3861: 'SHGetKnownFolderPath': identifier not found
+D:\Profiles\eds7847\source\repos\EngineWork\Engine\Source\Common\logger.cpp(37,21): error C2059: syntax error: ')'
   Engine.cpp
   IApplication.cpp
+  WinMain.cpp

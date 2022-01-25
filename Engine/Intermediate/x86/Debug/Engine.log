@@ -1,15 +1,1 @@
-﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
-  logger.cpp
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C2143: syntax error: missing ',' before '*'
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.cpp(16,1): error C2511: 'void Logger::PrintLog(const WCHAR *,...)': overloaded member function not found in 'Logger'
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(3): message : see declaration of 'Logger'
-  Engine.cpp
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C2143: syntax error: missing ',' before '*'
-  IApplication.cpp
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C2143: syntax error: missing ',' before '*'
-  WinMain.cpp
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\seank\source\repos\BlankProj\Engine\Source\Common\logger.h(13,34): error C2143: syntax error: missing ',' before '*'
+﻿  Engine.vcxproj -> D:\Profiles\eds7847\Source\Repos\EngineWork\Build\x86\Debug\Engine.dll

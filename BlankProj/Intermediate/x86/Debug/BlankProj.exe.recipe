@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\seank\source\repos\BlankProj\Build\x86\Debug\Engine.dll</FullPath>
+      <FullPath>D:\Profiles\eds7847\Source\Repos\EngineWork\Build\x86\Debug\Engine.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\seank\source\repos\BlankProj\Build\x86\Debug\BlankProj.exe</FullPath>
+      <FullPath>D:\Profiles\eds7847\Source\Repos\EngineWork\Build\x86\Debug\BlankProj.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

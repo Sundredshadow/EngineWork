@@ -4,8 +4,6 @@
 //only run if windows expandable to other OS
 //Architecture has a 
 
-enum Arch {x64,x86,arm};
-
 #ifdef BUILD_DLL
 #define Engine_API __declspec(dllexport)
 #else
@@ -13,6 +11,7 @@ enum Arch {x64,x86,arm};
 #endif
 
 #ifdef WIN32
+	#include <windows.h>
 	#include "Platform/WIN32/WinMain.h"
 	#include "Platform/WIN32/IApplication.h"
 
@@ -20,6 +19,7 @@ enum Arch {x64,x86,arm};
 
 #ifdef WIN64
 //temp need WIN64 variation
+	#include <windows.h>
 	#include "Platform/WIN32/WinMain.h"
 	#include "Platform/WIN32/IApplication.h"
 #endif // WIN64
@@ -32,3 +32,9 @@ enum Arch {x64,x86,arm};
 
 //logging
 #include "Common/logger.h"
+
+//timing
+#include "Common/Time.h"
+
+//start settings
+#include "Core/PerGameSettings.h"

@@ -1,5 +1,6 @@
-﻿cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+﻿cl : command line warning D9002: ignoring unknown option '/std:c++20'
+cl : command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
   Application.cpp
-C:\Users\seank\source\repos\BlankProj\EngineWork\Engine\Source\Entry.h(12,10): warning C4930: 'Logger logger(void)': prototyped function not called (was a variable definition intended?)
+D:\Profiles\eds7847\Source\Repos\EngineWork\Engine\Source\Entry.h(12,10): warning C4930: 'Logger logger(void)': prototyped function not called (was a variable definition intended?)
   pch.cpp
-  BlankProj.vcxproj -> C:\Users\seank\source\repos\BlankProj\EngineWork\Build\x64\Debug\BlankProj.exe
+  BlankProj.vcxproj -> D:\Profiles\eds7847\Source\Repos\EngineWork\Build\x64\Debug\BlankProj.exe

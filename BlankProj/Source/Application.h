@@ -8,6 +8,7 @@ public:
 	~Application();
 
 private:
+	void SetupPerGameSettings();
 	void init();
 	void update();
 };

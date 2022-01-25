@@ -9,7 +9,11 @@ extern IApplication* EntryApplication();
 	{
 		auto EntryApp = EntryApplication();
 
-		Logger logger();
+		PerGameSettings GameSettings;
+		EntryApp->SetupPerGameSettings();
+
+		Logger logger;
+
 
 		EntryApp->init();
 		//effectively keeps window up as long as a MSG event quit has not been recieved 

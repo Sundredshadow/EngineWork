@@ -9,6 +9,8 @@ public:
 	virtual ~IApplication(){};
 
 public:
+
+	virtual void SetupPerGameSettings() = 0;
 	virtual void init()=0;
 	virtual void update()=0;
 };

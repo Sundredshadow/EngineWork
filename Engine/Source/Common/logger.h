@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class Engine_API Logger {
 
@@ -11,4 +12,7 @@ public:
 	~Logger();
 
 	static void PrintLog(const WCHAR* fmt , ...);
+
+	static std::wstring LogDirectory();
+	static std::wstring LogFile();
 };
